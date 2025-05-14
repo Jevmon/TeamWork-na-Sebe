@@ -1,0 +1,18 @@
+var btn1 = document.getElementById("prz1")
+var btn2 = document.getElementById("prz2")
+var btn3 = document.getElementById("prz3")
+var btn4 = document.getElementById("prz4")
+var btn5 = document.getElementById("prz5")
+var btn6 = document.getElementById("prz6")
+var btn7 = document.getElementById("prz7")
+var btn8 = document.getElementById("prz8")
+var btn9 = document.getElementById("prz9")
+var btn0 = document.getElementById("prz0")
+
+var dziel = document.getElementById("dziel")
+var mnoz = document.getElementById("mnoz")
+var minus = document.getElementById("minus")
+var plus = document.getElementById("plus")
+var kropka = document.getElementById("kropka")
+
+var wynik = document.getElementById("wynik")
