@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <title>Kalkulator</title>
-    <style>
-        body {
+    body {
             background-color: #f4f4f4;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
@@ -95,37 +89,3 @@
         br {
             display: none;
         }
-    </style>
-</head>
-<body>
-
-    <div id="batony">
-        <h1>Kalkulator</h1>
-        <p id="text">0</p>
-
-        <button class="btn" value="7" id="prz7">7</button>
-        <button class="btn" value="8" id="prz8">8</button>
-        <button class="btn" value="9" id="prz9">9</button>
-        <button class="btn" value="/" id="dziel">/</button>
-
-        <button class="btn" value="4" id="prz4">4</button>
-        <button class="btn" value="5" id="prz5">5</button>
-        <button class="btn" value="6" id="prz6">6</button>
-        <button class="btn" value="*" id="mnoz">*</button>
-
-        <button class="btn" value="1" id="prz1">1</button>
-        <button class="btn" value="2" id="prz2">2</button>
-        <button class="btn" value="3" id="prz3">3</button>
-        <button class="btn" value="-" id="minus">-</button>
-
-        <button class="btn" value="0" id="prz0">0</button>
-        <button class="btn" value="." id="kropka">.</button>
-        <button class="btn" value="=" id="wynik">=</button>
-        <button class="btn" value="+" id="plus">+</button>
-
-        <button type="reset" id="reset">Reset</button>
-    </div>
-
-    <script src="jsik.js"></script>
-</body>
-</html>
